@@ -13,11 +13,15 @@ app.use(express.json())
 app.use(express.urlencoded({extended:false}))
 app.use(express.static('static'))
 const url = 'mongodb://127.0.0.1:27017/BOOK_STORE';
+
+mongoose.set("strictQuery", false);
 mongoose.connect(url, {useNewUrlParser: true, useUnifiedTopology: true});
+
 const connection = mongoose.connection;
 connection.once('open', ()=>{
     console.log("Database connected...");
 })
+
 
 //Database
 const bookSchema = new mongoose.Schema({
