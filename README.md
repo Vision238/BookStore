@@ -21,6 +21,7 @@ A bookstore app created using nodejs, expressjs and mongodb
 // for macOS
 brew install node 
 ```
+for windows https://www.geeksforgeeks.org/installation-of-node-js-on-windows/
 - [**MongoDB**](https://stackoverflow.com/a/59872332) >= latest version
 ``` bash
 // for macOS
