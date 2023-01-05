@@ -1,6 +1,6 @@
 # Bookstore
 A bookstore app created using nodejs, expressjs and mongodb
-# TechStack
+# TechStacks Used
 
 - HTML
 
